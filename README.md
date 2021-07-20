@@ -1,70 +1,42 @@
-# pureact-plugin README
+# pureact-plugin
 
-This is the README for your extension "pureact-plugin". After writing up a brief description, we recommend including the following sections.
+**pureact-plugin** 是一个基于 PureAct 的 VSCode 插件，可用于分析 Java 代码中的方法纯净性。
+
+本插件将读取 Maven 工程源代码，将其转换成抽象语法树，根据引用不变性进行方法纯净性分析。
 
 ## Features
-
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
 For example if there is an image subfolder under your extension project workspace:
 
 \!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. 安装 jdk 1.8及以上环境，并添加入 PATH 环境变量。
+2. 安装 maven 3.6.3及以上版本，并添加入 PATH 环境变量或 M2_HOME 环境变量。
+3. 在 Linux 平台下使用(PureAct在Linux平台下完全测试，部分功能可能与Windwos平台不兼容)。
 
-## Extension Settings
+## Usages
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+安装插件后，使用前需要保证 WorkSpace 只有一个目录，且该目录为 Maven 工程项目的目录，其拥有描述工程信息的 `pom.xml` 文件。
 
-For example:
+主要有两个步骤：
 
-This extension contributes the following settings:
+1. 点击工具栏 `View -> Command Palette` 或使用快捷键 `Ctrl + Shift + P` 后，选择 `PureAct: Activate plugin`。
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+弹出消息 `PureAct plugin is activated!`，说明插件正常运行。
 
-## Known Issues
+2. 点击工具栏 `View -> Command Palette` 或使用快捷键 `Ctrl + Shift + P` 后，选择 `PureAct: Start purity inference`。
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+弹出消息 `Start purity inference!`，说明插件开始分析项目代码。
+
+弹出窗口，用户可设置项目中部分“简单”方法的纯净性以辅助分析。可直接选择 `OK` 跳过。
+
+分析完成后，生成分析结果与分析日志的 Webview 窗口。
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
+初始的简易版本。
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
