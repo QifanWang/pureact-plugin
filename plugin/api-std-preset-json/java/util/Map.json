@@ -1,0 +1,66 @@
+[
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "put(java.lang.Object,java.lang.Object)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "get(java.lang.Object)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "containsKey(java.lang.Object)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "values()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "remove(java.lang.Object)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "putAll(java.util.Map)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "keySet()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.util.Map",
+    "method_signature": "isEmpty()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "class_name": "java.lang.System",
+    "method_signature": "arraycopy(java.lang.Object,int,java.lang.Object,int,int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": [
+      "READONLY",
+      "READONLY",
+      "MUTABLE",
+      "READONLY",
+      "READONLY"
+    ]
+  }
+]

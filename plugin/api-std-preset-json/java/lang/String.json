@@ -1,0 +1,218 @@
+[
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "toCharArray()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "equals(java.lang.Object)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "contains(java.lang.CharSequence)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "trim()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "equalsIgnoreCase(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "matches(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "endsWith(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "replace(char,char)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY", "READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "replace(java.lang.CharSequence,java.lang.CharSequence)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY", "READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "getBytes(java.nio.charset.Charset)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "getBytes(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "split(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "toUpperCase(java.util.Locale)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "indexOf(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "indexOf(int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "indexOf(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "toLowerCase(java.util.Locale)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "format(java.lang.String,java.lang.Object[])",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "substring(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "substring(int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "replaceAll(java.lang.String,java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "hashCode()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "subSequence(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "length()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "startsWith(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "regionMatches(boolean,int,java.lang.String,int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY","READONLY","READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.String",
+    "method_signature": "charAt(int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

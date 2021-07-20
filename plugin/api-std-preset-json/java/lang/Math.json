@@ -1,0 +1,34 @@
+[
+  {
+    "class_name": "java.lang.Math",
+    "method_signature": "min(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.Math",
+    "method_signature": "min(long,long)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.Math",
+    "method_signature": "max(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.Math",
+    "method_signature": "abs(int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

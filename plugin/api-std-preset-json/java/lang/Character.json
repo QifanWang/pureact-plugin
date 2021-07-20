@@ -1,0 +1,50 @@
+[
+  {
+    "class_name": "java.lang.Character",
+    "method_signature": "toUpperCase(char)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.Character",
+    "method_signature": "digit(char,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY", "READONLY"]
+  },
+  {
+    "class_name": "java.lang.Character",
+    "method_signature": "isWhitespace(char)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.Character",
+    "method_signature": "toLowerCase(char)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.Character",
+    "method_signature": "isLetter(char)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.Character",
+    "method_signature": "forDigit(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY", "READONLY"]
+  }
+]

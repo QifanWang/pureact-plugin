@@ -1,0 +1,74 @@
+[
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "contains(java.lang.Object)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "removeAll(java.util.Collection)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "iterator()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "size()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "addAll(java.util.Collection)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "retainAll(java.util.Collection)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "add(java.lang.Object)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "clear()",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.util.Set",
+    "method_signature": "isEmpty()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  }
+]

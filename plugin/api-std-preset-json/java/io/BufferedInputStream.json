@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.io.BufferedInputStream",
+    "method_signature": "close()",
+    "purity": "impure",
+    "static_mutable": "MUTABLE",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": []
+  }
+]

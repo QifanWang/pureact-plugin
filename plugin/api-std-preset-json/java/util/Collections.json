@@ -1,0 +1,26 @@
+[
+  {
+    "class_name": "java.util.Collections",
+    "method_signature": "unmodifiableList(java.util.List)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Collections",
+    "method_signature": "unmodifiableSet(java.util.Set)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Collections",
+    "method_signature": "singleton(java.lang.Object)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

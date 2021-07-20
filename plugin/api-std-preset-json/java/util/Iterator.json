@@ -1,0 +1,18 @@
+[
+  {
+    "class_name": "java.util.Iterator",
+    "method_signature": "hasNext()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.util.Iterator",
+    "method_signature": "next()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  }
+]

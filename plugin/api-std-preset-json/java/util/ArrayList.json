@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.util.ArrayList",
+    "method_signature": "get(int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": ["READONLY"]
+  }
+]

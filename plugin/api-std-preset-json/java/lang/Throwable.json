@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.lang.Throwable",
+    "method_signature": "getMessage()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  }
+]

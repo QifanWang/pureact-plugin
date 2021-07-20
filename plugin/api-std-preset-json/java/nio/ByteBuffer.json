@@ -1,0 +1,18 @@
+[
+  {
+    "class_name": "java.nio.ByteBuffer",
+    "method_signature": "wrap(byte[])",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["POLYREAD"]
+  },
+  {
+    "class_name": "java.nio.ByteBuffer",
+    "method_signature": "array()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  }
+]

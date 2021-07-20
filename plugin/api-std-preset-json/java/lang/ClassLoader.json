@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.lang.ClassLoader",
+    "method_signature": "getResourceAsStream(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": ["READONLY"]
+  }
+]

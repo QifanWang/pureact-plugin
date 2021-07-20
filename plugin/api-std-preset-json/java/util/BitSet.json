@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.util.BitSet",
+    "method_signature": "get(int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

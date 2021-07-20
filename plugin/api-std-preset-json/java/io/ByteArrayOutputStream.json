@@ -1,0 +1,20 @@
+[
+  {
+    "class_name": "java.io.ByteArrayOutputStream",
+    "method_signature": "write(int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.io.ByteArrayOutputStream",
+    "method_signature": "toByteArray()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  }
+]

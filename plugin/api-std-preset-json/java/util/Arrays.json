@@ -1,0 +1,26 @@
+[
+  {
+    "class_name": "java.util.Arrays",
+    "method_signature": "asList(java.lang.Object[])",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["POLYREAD"]
+  },
+  {
+    "class_name": "java.util.Arrays",
+    "method_signature": "toString(byte[])",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.util.Arrays",
+    "method_signature": "fill(byte[],byte)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["MUTABLE","READONLY"]
+  }
+]

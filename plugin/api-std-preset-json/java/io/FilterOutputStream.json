@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.io.FilterOutputStream",
+    "method_signature": "java.io.FilterOutputStream(java.io.OutputStream)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

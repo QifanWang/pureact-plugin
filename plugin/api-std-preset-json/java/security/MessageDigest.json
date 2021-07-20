@@ -1,0 +1,66 @@
+[
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "reset()",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "digest(byte[])",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "digest()",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "update(java.nio.ByteBuffer)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["MUTABLE"]
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "update(byte[])",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "update(byte[],int,int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY","READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "update(byte)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.security.MessageDigest",
+    "method_signature": "getInstance(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

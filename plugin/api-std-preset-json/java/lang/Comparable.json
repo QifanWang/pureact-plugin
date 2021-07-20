@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.lang.Comparable",
+    "method_signature": "compareTo(java.lang.Object)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "class_name": "java.io.File",
+    "method_signature": "isFile()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.io.File",
+    "method_signature": "getName()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.io.File",
+    "method_signature": "isDirectory()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.io.File",
+    "method_signature": "listFiles()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  }
+]

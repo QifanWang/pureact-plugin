@@ -1,0 +1,34 @@
+[
+  {
+    "class_name": "java.lang.Exception",
+    "method_signature": "java.lang.Exception(java.lang.String,java.lang.Throwable)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY", "READONLY"]
+  },
+  {
+    "class_name": "java.lang.Exception",
+    "method_signature": "java.lang.Exception(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.Exception",
+    "method_signature": "java.lang.Exception(java.lang.Throwable)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.Exception",
+    "method_signature": "java.lang.Exception()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  }
+]

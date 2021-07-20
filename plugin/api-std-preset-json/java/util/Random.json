@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.util.Random",
+    "method_signature": "nextInt(int)",
+    "purity": "impure",
+    "static_mutable": "MUTABLE",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  }
+]

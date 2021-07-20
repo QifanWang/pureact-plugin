@@ -1,0 +1,26 @@
+[
+  {
+    "method_signature": "defaultCharset()",
+    "purity": "impure",
+    "class_name": "java.nio.charset.Charset",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": []
+  },
+  {
+    "method_signature": "forName(java.lang.String)",
+    "purity": "pure",
+    "class_name": "java.nio.charset.Charset",
+    "static_mutable": "POLYREAD",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "method_signature": "name()",
+    "purity": "pure",
+    "class_name": "java.nio.charset.Charset",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": []
+  }
+]

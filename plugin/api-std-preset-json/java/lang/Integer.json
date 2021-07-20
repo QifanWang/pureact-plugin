@@ -1,0 +1,18 @@
+[
+  {
+    "class_name": "java.lang.Integer",
+    "method_signature": "rotateLeft(int,int)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.Integer",
+    "method_signature": "parseInt(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY","READONLY"]
+  }
+]

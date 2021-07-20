@@ -1,0 +1,18 @@
+[
+  {
+    "class_name": "java.util.regex.Pattern",
+    "method_signature": "matcher(java.lang.CharSequence)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "POLYREAD",
+    "parameter_mutable": ["POLYREAD"]
+  },
+  {
+    "class_name": "java.util.regex.Pattern",
+    "method_signature": "compile(java.lang.String)",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": ["READONLY"]
+  }
+]

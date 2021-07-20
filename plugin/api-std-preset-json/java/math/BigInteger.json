@@ -1,0 +1,18 @@
+[
+  {
+    "method_signature": "bitLength()",
+    "purity": "pure",
+    "class_name": "java.math.BigInteger",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "method_signature": "toByteArray()",
+    "purity": "pure",
+    "class_name": "java.math.BigInteger",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  }
+]

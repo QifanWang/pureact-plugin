@@ -1,0 +1,98 @@
+[
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "deleteCharAt(int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY"]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "toString()",
+    "purity": "pure",
+    "static_mutable": "READONLY",
+    "this_mutable": "READONLY",
+    "parameter_mutable": []
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "delete(int,int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": ["READONLY","READONLY"]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(java.lang.String)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(char)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(java.lang.CharSequence)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(java.lang.Object)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(char[],int,int)",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY",
+      "READONLY",
+      "READONLY"
+    ]
+  },
+  {
+    "class_name": "java.lang.StringBuilder",
+    "method_signature": "append(char[])",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": [
+      "READONLY"
+    ]
+  }
+]

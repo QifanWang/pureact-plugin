@@ -1,0 +1,10 @@
+[
+  {
+    "class_name": "java.util.Scanner",
+    "method_signature": "close()",
+    "purity": "impure",
+    "static_mutable": "READONLY",
+    "this_mutable": "MUTABLE",
+    "parameter_mutable": []
+  }
+]
