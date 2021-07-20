@@ -1,11 +1,16 @@
 {
 	"name": "pureact-plugin",
 	"displayName": "PureAct-Plugin",
-	"description": "",
+	"description": "这是一个基于 PureAct 的 VSCode 插件，可用于分析 Java 代码中的方法纯净性。",
 	"publisher": "QifanWang",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.58.0"
+	},
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/QifanWang/pureact-plugin"
 	},
 	"categories": [
 		"Other"
