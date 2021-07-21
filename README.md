@@ -1,8 +1,8 @@
 # pureact-plugin
 
-**pureact-plugin** 是一个基于 PureAct 的 VSCode 插件，可用于分析 Java 代码中的方法纯净性。
+**pureact-plugin** 是一个基于 PureAct 的 VSCode 插件，可用于分析 Java 代码中的方法纯净性。插件输入为 Java 源代码文件，输出为纯净方法、非纯净方法与未知纯净性方法的方法签名。具体上，插件将读取 Maven 工程中的源代码，将其转换成抽象语法树，根据引用不变性进行方法纯净性分析。
 
-本插件将读取 Maven 工程源代码，将其转换成抽象语法树，根据引用不变性进行方法纯净性分析。
+本插件由 **[王启凡](https://github.com/QifanWang)** 与 **[玄跻峰](http://jifeng-xuan.com/index_cn.html)** 开发。
 
 ## 安装要求
 
